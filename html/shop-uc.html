@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>赫森-分销商-个人中心</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="keywords" content="赫森">
+    <meta name="description" content="赫森">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link type="text/css" rel="stylesheet" href="../assets/css/hesen.min.css">
+    <script>(function(){var b=document.documentElement,a=function(){var a=b.getBoundingClientRect().width;b.style.fontSize=0.0625*(640<=a?640:a)+"px"},c=null;window.addEventListener("resize",function(){clearTimeout(c);c=setTimeout(a,300)});a()})();</script>
+</head>
+<body onload="loaded()">
+<!-- Loading -->
+<div id="loading" class="loading">
+    <div class="toast"><div class="toast-text"><span class="toast-icon-loading"></span>载入中</div></div>
+</div>
+<!-- // Loading -->
+<!-- Header -->
+<header class="header">
+    <a href="javascript:history.go(-1);" class="left-back header-left"></a>
+    <h1 class="header-title">我的首页</h1>
+    <a href="#" class="header-right btn btn-link">退出</a>
+</header>
+<!-- // Header -->
+<!-- Content -->
+<div id="wrapper">
+    <div id="scroller">
+        <div id="content" class="content">
+            <div class="shop-uc-binfo">
+                <div class="uc-avatar"><img src="../assets/upload/avatar_02.jpg"></div>
+                <div class="uc-uname">Miss</div>
+            </div>
+            <div class="shop-uc-quick-enter">
+                <a href="#">20<span>我的宝贝</span></a>
+                <a href="#">10<span>我的货架</span></a>
+                <a href="#">5<span>我的订单</span></a>
+            </div>
+            <div class="am-list mt10">
+                <div class="am-list-body">
+                    <a href="#" class="am-list-item">
+                        <span class="shop-uc-icn-income"></span>
+                        <div class="am-list-content">我的收入</div>
+                        <div class="am-list-arrow"><span class="am-icon"></span></div>
+                    </a>
+                </div>
+            </div>
+            <div class="am-list mt10">
+                <div class="am-list-body">
+                    <div class="am-list-item">
+                        <span class="shop-uc-icn-dollar"></span>
+                        <div class="am-list-content">今日毛利（元）</div>
+                    </div>
+                </div>
+            </div>
+            <div class="profit-today">
+                <b class="pt-total">150.00</b>
+                <div class="pt-dt">
+                    <span>订单：7笔</span>
+                    <span>销售额：260.00元</span>
+                </div>
+            </div>
+            <div class="am-list mt10">
+                <div class="am-list-body">
+                    <div class="am-list-item">
+                        <span class="shop-uc-icn-graph"></span>
+                        <div class="am-list-content">我的销售数据</div>
+                        <a href="#" class="am-list-arrow">更多 <span class="am-icon"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="sales-data">
+                <ul class="sales-data-list">
+                    <li>本周毛利（元）<span>250.00</span></li>
+                    <li>本月毛利（元）<span>890.00</span></li>
+                    <li>本年毛利（元）<span>8950.00</span></li>
+                    <li>累计毛利（元）<span>15090.00</span></li>
+                </ul>
+            </div>
+            <div class="am-list mt10">
+                <div class="am-list-body">
+                    <div class="am-list-item">
+                        <span class="shop-uc-icn-home"></span>
+                        <div class="am-list-content">我的店铺访问量（次）</div>
+                    </div>
+                </div>
+            </div>
+            <div class="shop-pv">
+                <ul class="shop-pv-list">
+                    <li>今日：<span>10</span></li>
+                    <li>昨日：<span>10</span></li>
+                    <li>累计访问量：<span>1305</span></li>
+                </ul>
+            </div>
+            <div class="am-list mt10">
+                <div class="am-list-body">
+                    <div class="am-list-item">
+                        <span class="shop-uc-icn-report"></span>
+                        <div class="am-list-content">昨日销量</div>
+                        <a href="#" class="am-list-arrow">更多 <span class="am-icon"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="sales-yesterday">5笔</div>
+        </div>
+    </div>
+</div>
+<!-- // Content -->
+<!-- Gotop -->
+<a href="#" class="gotop"></a>
+<!-- // Gotop -->
+<!-- 快捷菜单 -->
+<div class="menu-fixed">
+    <a href="javascript:;" id="J_menuTrigger" class="menu-trigger" onclick="HS.menuFixed._toggle();"></a>
+    <ul>
+        <li><a href="#"><span class="shop-menu-icon-home"></span>我的首页</a></li>
+        <li><a href="#"><span class="shop-menu-icon-shop"></span>我的小店</a></li>
+        <li><a href="#"><span class="shop-menu-icon-order"></span>我的订单</a></li>
+        <li><a href="#"><span class="shop-menu-icon-shelf"></span>我的货架</a></li>
+        <li><a href="#"><span class="shop-menu-icon-choose"></span>挑选宝贝</a></li>
+        <li><a href="#"><span class="shop-menu-icon-magager"></span>店长信息</a></li>
+        <li><a href="#"><span class="shop-menu-icon-ad"></span>我的广告</a></li>
+    </ul>
+</div>
+<!-- // 快捷菜单 -->
+<script src="../assets/js/iscroll-probe.js"></script>
+<script src="../assets/js/jquery-2.1.4.min.js"></script>
+<script src="../assets/js/hesen.js"></script>
+<script src="../assets/js/menuFixed.js"></script>
+<script>
+    $(function(){
+        HS.menuFixed._init();
+        HS.shopSubMenu._init();
+    });
+</script>
+</body>
+</html>

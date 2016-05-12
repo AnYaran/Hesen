@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>赫森-首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="keywords" content="赫森">
+    <meta name="description" content="赫森">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link type="text/css" rel="stylesheet" href="../assets/css/hesen.min.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.ico">
+    <script>(function(){var b=document.documentElement,a=function(){var a=b.getBoundingClientRect().width;b.style.fontSize=0.0625*(640<=a?640:a)+"px"},c=null;window.addEventListener("resize",function(){clearTimeout(c);c=setTimeout(a,300)});a()})();</script>
+</head>
+<body onload="loaded()">
+<!-- Loading -->
+<div id="loading" class="loading">
+    <div class="toast"><div class="toast-text"><span class="toast-icon-loading"></span>载入中</div></div>
+</div>
+<!-- // Loading -->
+<!-- Header -->
+<header class="header">
+    <a href="#" class="header-left btn btn-link">分享</a>
+    <h1 class="header-title">绿宝岛</h1>
+    <a href="register.html" class="header-right btn btn-link">注册分店</a>
+</header>
+<!-- // Header -->
+<!-- Bar Tab -->
+<nav class="bar-tab">
+    <div class="tab-item active">
+        <a href="index.html">
+            <span class="icon-home"></span>
+            <span class="tab-label">首页</span>
+        </a>
+    </div>
+    <div class="tab-item has-submenu">
+        <a href="javascript:;">
+            <span class="icon-list"></span>
+            <span class="tab-label">商品分类</span>
+        </a>
+        <!-- submenu -->
+        <div id="submenu" class="submenu">
+            <a href="#">热带水果</a>
+            <a href="#">五谷杂粮</a>
+            <a href="#">工艺优品</a>
+            <a href="#">养生南药</a>
+            <a href="#">海南特产</a>
+            <a href="#">茶饮茶歇</a>
+            <a href="#">调味香料</a>
+            <a href="#">乡野原味</a>
+        </div>
+        <!-- // submenu -->
+    </div>
+    <div class="tab-item">
+        <a href="#">
+            <span class="icon-cart"></span>
+            <span class="tab-label">购物车</span>
+        </a>
+    </div>
+    <div class="tab-item">
+        <a href="#">
+            <span class="icon-user"></span>
+            <span class="tab-label">个人中心</span>
+        </a>
+    </div>
+</nav>
+<!-- // Bar Tab -->
+<!-- Content -->
+<div id="wrapper">
+    <div id="scroller">
+        <div id="content" class="content">
+            <!-- 轮播图 -->
+            <div class="swiper-container swiper-cat-index-ad mt0">
+                <div class="swiper-wrapper">
+                    <a href="http://www.baidu.com" class="swiper-slide">
+                        <img data-src="../assets/upload/swiper_01.jpg" class="swiper-lazy">
+                        <div class="swiper-lazy-preloader"></div>
+                    </a>
+                    <a href="http://www.baidu.com" class="swiper-slide">
+                        <img data-src="../assets/upload/swiper_01.jpg" class="swiper-lazy">
+                        <div class="swiper-lazy-preloader"></div>
+                    </a>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- // 轮播图 -->
+            <!-- 搜索 -->
+            <div class="form-search-wrapper">
+                <form class="form-search">
+                    <span><i class="icon-search"></i></span>
+                    <input type="text" id="key" class="input-search" placeholder="商品搜索：请输入商品关键字">
+                </form>
+            </div>
+            <!-- 搜索 -->
+            <!-- 商品分类 -->
+            <section class="category">
+                <ul class="clearfix">
+                    <li>
+                        <a href="#" data-cat="fruit">
+                            <span></span>
+                            <strong>热带水果</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-cat="cereals">
+                            <span></span>
+                            <strong>五谷杂粮</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-cat="artware">
+                            <span></span>
+                            <strong>工艺优品</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-cat="medicine">
+                            <span></span>
+                            <strong>养生南药</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-cat="specialty">
+                            <span></span>
+                            <strong>海南特产</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-cat="tea">
+                            <span></span>
+                            <strong>茶饮茶歇</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-cat="spice">
+                            <span></span>
+                            <strong>调味香料</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" data-cat="venison">
+                            <span></span>
+                            <strong>乡野原味</strong>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- // 商品分类 -->
+            <!-- 当季特产 -->
+            <section class="season-wrapper">
+                <div class="index-headline mt10" data-hl="season">
+                    <strong>当季特产</strong>
+                </div>
+                <div class="season-list">
+                    <a href="#">
+                        <span style="background-image: url(../assets/upload/fruit_1.jpg)"></span>
+                        <strong>红富士苹果</strong>
+                    </a>
+                    <a href="#">
+                        <span style="background-image: url(../assets/upload/fruit_2.jpg)"></span>
+                        <strong>香蕉</strong>
+                    </a>
+                    <a href="#">
+                        <span style="background-image: url(../assets/upload/fruit_3.jpg)"></span>
+                        <strong>柠檬</strong>
+                    </a>
+                </div>
+                <a href="#" class="btn btn-block btn-default btn-radius btn-md">点击查看更多>></a>
+            </section>
+            <!-- // 当季特产 -->
+            <!-- 特优推荐 -->
+            <section class="recommend-wrapper mt10">
+                <div class="index-headline mt10" data-hl="recommend">
+                    <strong>特优推荐</strong>
+                </div>
+                <div class="swiper-container-02">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="media-item">
+                                <div class="pic" style="background-image: url(../assets/upload/fruit_4.jpg)"></div>
+                                <div class="main-info">
+                                    <div class="text"><a href="#">海南水果之王菠萝蜜</a></div>
+                                    <div class="intro">简介：菠萝蜜</div>
+                                    <div class="price">¥ 34.00</div>
+                                    <a href="#" class="btn btn-warning btn-radius btn-lg">立即购买</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="media-item">
+                                <div class="pic" style="background-image: url(../assets/upload/fruit_4.jpg)"></div>
+                                <div class="main-info">
+                                    <div class="text"><a href="#">海南水果之王菠萝蜜</a></div>
+                                    <div class="intro">简介：菠萝蜜是热带水果，也是世界上最重的水果。</div>
+                                    <div class="price">¥ 34.00</div>
+                                    <a href="#" class="btn btn-warning btn-radius btn-lg">立即购买</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="media-item">
+                                <div class="pic" style="background-image: url(../assets/upload/fruit_4.jpg)"></div>
+                                <div class="main-info">
+                                    <div class="text"><a href="#">海南水果之王菠萝蜜</a></div>
+                                    <div class="intro">简介：菠萝蜜是热带水果，也是世界上最重的水果。</div>
+                                    <div class="price">¥ 34.00</div>
+                                    <a href="#" class="btn btn-warning btn-radius btn-lg">立即购买</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination-02"></div>
+                </div>
+            </section>
+            <!-- // 特优推荐 -->
+            <!-- 最新水果/赫森农药 -->
+            <!-- Tabs -->
+            <div id="tabs-2" class="tabs mt10">
+                <a href="#" class="active">最新水果</a>
+                <a href="#">赫森农药</a>
+            </div>
+            <!-- // Tabs -->
+            <!-- Tabs Container -->
+            <div id="tabs-container-2" class="tabs-container swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <!-- 最新水果列表 -->
+                        <div class="fruits-list">
+                            <a href="#">
+                                <div class="pic" style="background-image: url(../assets/upload/fruit_5.jpg)"></div>
+                                <div class="main-info">
+                                    <div class="text">云南蒙自石榴薄皮多汁软</div>
+                                    <div class="intro">石榴果实营养丰富，维生素C含量比苹果、梨要高出一二倍。</div>
+                                    <div class="price">¥ 34.00</div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="pic" style="background-image: url(../assets/upload/fruit_5.jpg)"></div>
+                                <div class="main-info">
+                                    <div class="text">云南蒙自石榴薄皮多汁软</div>
+                                    <div class="intro">石榴果实营养丰富，维生素C含量比苹果、梨要高出一二倍。</div>
+                                    <div class="price">¥ 34.00</div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="pic" style="background-image: url(../assets/upload/fruit_5.jpg)"></div>
+                                <div class="main-info">
+                                    <div class="text">云南蒙自石榴薄皮多汁软</div>
+                                    <div class="intro">石榴果实营养丰富，维生素C含量比苹果、梨要高出一二倍。</div>
+                                    <div class="price">¥ 34.00</div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- // 最新水果列表 -->
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- 赫森农药列表 -->
+                        <div class="fruits-list">
+                            <a href="#">
+                                <div class="pic" style="background-image: url(../assets/upload/fruit_5.jpg)"></div>
+                                <div class="main-info">
+                                    <div class="text">云南蒙自石榴薄皮多汁软</div>
+                                    <div class="intro">石榴果实营养丰富，维生素C含量比苹果、梨要高出一二倍。</div>
+                                    <div class="price">¥ 34.00</div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="pic" style="background-image: url(../assets/upload/fruit_5.jpg)"></div>
+                                <div class="main-info">
+                                    <div class="text">云南蒙自石榴薄皮多汁软</div>
+                                    <div class="intro">石榴果实营养丰富，维生素C含量比苹果、梨要高出一二倍。</div>
+                                    <div class="price">¥ 34.00</div>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="pic" style="background-image: url(../assets/upload/fruit_5.jpg)"></div>
+                                <div class="main-info">
+                                    <div class="text">云南蒙自石榴薄皮多汁软</div>
+                                    <div class="intro">石榴果实营养丰富，维生素C含量比苹果、梨要高出一二倍。</div>
+                                    <div class="price">¥ 34.00</div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- // 赫森农药列表 -->
+                    </div>
+                </div>
+            </div>
+            <!-- // Tabs Container -->
+            <!-- // 最新水果/赫森农药 -->
+        </div>
+    </div>
+</div>
+<!-- // Content -->
+<!-- Gotop -->
+<a href="#" class="gotop"></a>
+<!-- // Gotop -->
+<script src="../assets/js/swiper.min.js"></script>
+<script src="../assets/js/iscroll-probe.js"></script>
+<script src="../assets/js/jquery-2.1.4.min.js"></script>
+<script src="../assets/js/hesen.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-cat-index-ad', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        // Disable preloading of all images
+        preloadImages: false,
+        // Enable lazy loading
+        lazyLoading: true,
+        loop: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+    var Swiper2 = new Swiper('.swiper-container-02',{
+        pagination: '.swiper-pagination-02',
+        paginationClickable: true,
+        loop: true
+    });
+    var tabsSwiper1 = new Swiper('#tabs-container-1',{
+        speed:500,
+        onSlideChangeStart: function(){
+            $("#tabs-1 .active").removeClass('active');
+            $("#tabs-1 a").eq(tabsSwiper1.activeIndex).addClass('active')
+        }
+    });
+    $("#tabs-1 a").on('touchstart mousedown',function(e){
+        e.preventDefault();
+        $("#tabs-1 .active").removeClass('active');
+        $(this).addClass('active');
+        tabsSwiper1.slideTo( $(this).index() )
+    });
+    var tabsSwiper2 = new Swiper('#tabs-container-2',{
+        speed:500,
+        onSlideChangeStart: function(){
+            $("#tabs-2 .active").removeClass('active');
+            $("#tabs-2 a").eq(tabsSwiper2.activeIndex).addClass('active')
+        }
+    });
+    $("#tabs-2 a").on('touchstart mousedown',function(e){
+        e.preventDefault();
+        $("#tabs-2 .active").removeClass('active');
+        $(this).addClass('active');
+        tabsSwiper2.slideTo( $(this).index() )
+    });
+    $(".tabs a").click(function(e){
+        e.preventDefault();
+    });
+
+</script>
+</body>
+</html>
